@@ -1,0 +1,34 @@
+# Ignore virtual environment
+mlpr/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore dataset files (if any)
+data/
+*.csv
+*.xlsx
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+
+# Ignore compiled code and binaries
+*.so
+*.dll
+*.exe
+
+# Ignore WandB logs (if using WandB)
+wandb/
