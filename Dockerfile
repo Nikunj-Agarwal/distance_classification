@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY . .
 
-RUN pip install numpy pandas scikit-learn wandb
+RUN pip install numpy pandas scikit-learn wandb Pillow matplotlib jupyter nbconvert
 
-CMD ["python", "distance_classification.py"]
+CMD ["jupyter", "nbconvert", "--execute", "--to", "html", "--allow-errors", "Lab 5-Spring 2025.ipynb"]
