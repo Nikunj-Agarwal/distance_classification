@@ -20,7 +20,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install numpy pandas scikit-learn Pillow
 
-      - name: Run tests
+      - name: Check Image Files
         run: |
           python -c "
           import os
